@@ -1,9 +1,83 @@
-/* @media (min-width: 1400px) {
+@media (min-width: 1400px) {
   .container {
     max-width: 1140px;
   }
-} */
+}
 
+/* text colors */
+.text-dark-custom {
+  color: #3a3a47!important;
+}
+
+.text-grey-custom {
+  color: #5c5c5c!important;
+}
+
+.text-light-grey-custom {
+  color: #818198!important;
+}
+
+.text-dark-blue-custom {
+  color: #383861!important;
+}
+
+.text-blue-custom {
+  color: #3498db!important;
+}
+
+.text-green-custom {
+  color: #21bf73!important;
+}
+
+/* background colors */
+.bg-primary-custom {
+  background-color: #f0f5f9;
+}
+
+/* forms and buttons style */
+.btn {
+  padding: 0 20px;
+  line-height: 38px;
+}
+
+.btn-blue-custom {
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.btn-blue-custom:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.btn-success-custom {
+  border: 2px solid #21bf73;
+  background-color: #21bf73;
+  color: #ffffff;
+}
+
+.btn-success-custom:hover {
+  color: #ffffff;
+}
+
+/* form control custom */
+.form-control-custom {
+  color: #222222;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #F0F5F8;
+  outline: none;
+  padding-left: 20px;
+}
+
+/* font-styles */
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Montserrat';
+}
 /* navbar style */
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;;
@@ -15,17 +89,25 @@
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Montserrat';
   font-weight: 500;
-  font-size: 12px;
-  padding: 5px 12px;
+  font-size: 15px;
+  padding: 5px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.btn {
+  padding: 0 10px;
 }
 
 /* home section style */
 .home {
-  background-color: #F0F5F9;
-  padding: 150px 0 100px 0;
+  padding: 150px 0 70px 0;
 }
 
 /* about section style */
+.about .container .row h6 {
+  font-size: 10px;
+}
+
+
 .about-card-1 {
   background-color: #FFF2E5;
 }
@@ -39,5 +121,41 @@
 }
 
 .about-card-image {
+  width: 70px;
+}
+
+/* features section style */
+.features-container {
+  background-color: #F0F5F9;
+}
+
+/* results section style */
+.results img {
   width: 80px;
+}
+
+/* review section style  */
+.review-container {
+  padding: 100px 50px;
+  background-color: #F0F5F9;
+}
+
+/* pricing styles */
+.pricing-card {
+  background-color: #F0F5F9;
+}
+
+.card-body img {
+  width: 120px;
+}
+
+/* faq styles */
+.faq-container {
+  padding: 100px 50px;
+  background-color: #F0F5F9;
+}
+
+/* footer style */
+.social-links a>i{
+  font-size: 30px;
 }
